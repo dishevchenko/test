@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Main suite ">
+    <test name="Main tests to verify coding task">
+        <classes>
+            <!--alternatively can be gathered by package, but on our case we need to call not all classes from package test-->
+            <class name="test.TestHomePage"/>
+            <class name="test.TestSolutionsPage"/>
+            <class name="test.TestPageNavigation"/>
+        </classes>
+    </test>
+</suite>
